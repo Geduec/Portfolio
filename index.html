@@ -1,76 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Eduardo Elias Chacin">
-    <title>Portfolio</title>
+    <meta name ="author" content="Eduardo Elias Chacin">
+    <title>Portfolio - Eduardo Elias</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <h1>Bienvenido a mi Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#Sobre mi">Sobre mi</a></li>
-                <li><a href="#Proyectos">Proyectos</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#sobre mi">Sobre mi</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="Sobre mi"</section>
+        <section id="sobre mi">
             <h2>Sobre mi</h2>
-            <p>Soy una persona que se reinventa ya que soy estudiante de Asir, mi pasión por este mundo de tecnología 
-                viene desde pequeño aunque mis origenes vienen desde cargos con mucha responsabilidad en la Hostelería lo que me ha permitido tener bastante coraje e iniciativa.
-            Desde la pandemia mi curiosidad no ha hecho mas que crecer y que debido a que siempre me ha gustado ayudar en los problemas tecnologicos de amigos y familiares, 
-            me dije: ¿Y porque no hacerlo con todo el mundo? 
-        Tengo la firme creencia que todos tenemos algo que aportar así como una ganacia continua de conocimiento de las demás personas</p>
-
+            <img src="./assets/img/foto_edu.JPEG" alt="Foto de Eduardo Elias" width="200">
+            <<p>
+                Soy estudiante de ASIR y una persona en constante reinvención. 
+                Aunque mis orígenes profesionales provienen de la hostelería, este entorno me ha aportado 
+                responsabilidad, iniciativa y capacidad de adaptación.
+                Desde la pandemia, mi interés por la tecnología no ha dejado de crecer, motivado por ayudar 
+                a amigos y familiares con problemas técnicos.
+            </p>
         </section>
 
-        <section id="Habilidades">
+        <section id="habilidades">
             <h2>Habilidades</h2>
             <ul>
-                <li>Desarrollo web (HTML, CSS, JavaScript)</li>
-                <li>Programación en Python y Java</li>
-                <li>Gestión de bases de datos (SQL)</li>
-                <li>Trabajo en equipo y comunicación efectiva</li>
-            </ul>
-            <ul>
-                <li>Resolución de problemas técnicos</li>
+                <li>Trabajo en equipo</li>
+                <li>Comunicación efectiva</li>
+                <li>Resolución de problemas</li>
                 <li>Adaptabilidad y aprendizaje continuo</li>
-                <li>Conocimientos en gestión y eficiencia en entornos de alta prsión</li>
-                <li>Improvisaciñon ante improvistos</li>
+                <li>Gestión del estrés en entornos de alta presión</li>
+                <li>Iniciativa y responsabilidad</li>
             </ul>
         </section>
 
-        <section id="Formación">
+        <section id="conocimientos">
+            <h2>Conocimientos Técnicos</h2>
+            <img src="./assets/img/html5.png" alt="Icono de HTML5">
+            <p>HTML5</p>
+            <img src="./assets/img/CSS3_logo.svg.png" alt="Icono de CSS3">
+            <p>CSS3</p>
+        </section>
+
+        <section id="formación">
             <h2>Formación</h2>
             <ul>
-                <li>Grado en Administración de Sistemas Informáticos en Red (ASIR) - Instituto XYZ (2025 - Presente) 1er Año actualmente</li>
+                <li>Grado en Administración de Sistemas Informáticos en Red (ASIR) - Prometeo ThePower (2025 - Presente) 1er Año actualmente</li>
             </ul>
         </section>
 
-        <section id="Proyectos">
+        <section id="proyectos">
             <h2>Proyectos</h2>
-            <ul>
-                <li>Desarrollo de una página web personal utilizando HTML, CSS y JavaScript.</li>
-                <li>Implementación de una base de datos para gestionar inventarios en SQL.</li>
-            </ul>
+
+            <p>Ejemplos de proyectos realizados como prácticas de maquetación web.</p>
+            <article>
+                <h3>Web Informativa de Centro Educativo</h3>
+                <p>
+                    Página web estática diseñada para presentar la información básica de un centro educativo,
+                    incluyendo secciones como inicio, oferta formativa y contacto. El proyecto se centra en
+                    la correcta estructuración del contenido usando HTML5 y una maquetación sencilla con CSS.
+                </p>
+                <img src="./assets/img/proyecto_centro.jpg" alt="Maquetación de una página web educativa">
+            </article>
+
+            <article>
+                <h3>Página de Presentación de Servicios</h3>
+                <p>
+                    Desarrollo de una página web orientada a mostrar los servicios ofrecidos por una empresa
+                    ficticia. Se ha trabajado la organización del contenido mediante secciones claras y
+                    el uso de estilos básicos para mejorar la legibilidad y presentación visual.
+                </p>
+                <img src="./assets/img/proyecto_servicios.jpg" alt="Maquetación de una página web de servicios">
+            </article>
+
+            <article>
+                <h3>Panel Informativo Web</h3>
+                <p>
+                    Diseño de un panel informativo pensado para mostrar avisos, noticias o información relevante
+                    sobre el tiempo metereologico.
+                     El objetivo del proyecto es practicar la disposición de elementos
+                    y el uso de etiquetas semánticas en HTML.
+                </p>
+                <img src="./assets/img/proyecto_panel.jpg" alt="Diseño de un panel informativo web">
+            </article>
         </section>
 
-        <section id="Contacto">
-            <h2>Contacto</h2>
-            <p>Si deseas ponerte en contacto conmigo, puedes contactarme:
-                <label>Nombre: </label>
-                <input type="text" value="Eduardo Elias Chacin" disabled>
-                <label>Teléfono: </label>
-                <input type="tel" value="+34 622 45 67 89" disabled>
-                <label>Email: </label>
-                 <a href="mailto:geduec@proton.me">
-                    
-            <p>Estoy abierto a proposiciones u oportunidades de aprendizaje</p>
 
-    </main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+                    
+        </section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Eduardo Elias Chacin</p>
+</footer>
 </body>
 </html>
