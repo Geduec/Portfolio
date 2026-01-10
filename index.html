@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name ="author" content="Eduardo Elias Chacin">
     <title>Portfolio - Eduardo Elias</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p1Cg8D7fFuzqGRUMYbpaSTlk+jrM0upRSIV1eVfZp+bNvQy3n9PqMl9yWLI0nGQjcM5Cn06b28p2O8wTT+Y7kg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,30 +15,40 @@
 
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre mi">Sobre mi</a></li>
-                <li><a href="#formacion">Formación</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="sobre mi">
-            <h2>Sobre mi</h2>
-            <img src="./assets/img/foto_edu.JPEG" alt="Foto de Eduardo Elias" width="200">
-            <<p>
-                Soy estudiante de ASIR y una persona en constante reinvención. 
-                Aunque mis orígenes profesionales provienen de la hostelería, este entorno me ha aportado 
-                responsabilidad, iniciativa y capacidad de adaptación.
-                Desde la pandemia, mi interés por la tecnología no ha dejado de crecer, motivado por ayudar 
-                a amigos y familiares con problemas técnicos.
-            </p>
-        </section>
+<header>
+    <h1>Portfolio de Eduardo Elias</h1>
+    <p class="subtitulo">Estudiante de ASIR y en máster de ciberseguridad</p>
+            
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <p>
+            <a href="https://github.com/tu_usuario" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+            <a href="https://linkedin.com/in/tu_perfil" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+    </nav>
+</header>
 
+<main>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <div class="sobre-mi-contenido">
+            <img src="./assets/img/foto_edu.JPEG" alt="Foto de Eduardo Elias"/>
+            <p>
+            Soy estudiante de ASIR y una persona en constante reinvención. 
+            Aunque mis orígenes profesionales provienen de la hostelería, este entorno me ha aportado 
+            responsabilidad, iniciativa y capacidad de adaptación. Desde la pandemia, mi interés por la
+            tecnología no ha dejado de crecer, motivado por ayudar a amigos y familiares con problemas técnicos.
+            </p>
+        </div>
+
+    </section>
+
+    <div class="separador">
         <section id="habilidades">
             <h2>Habilidades</h2>
             <ul>
@@ -49,22 +61,36 @@
             </ul>
         </section>
 
-        <section id="conocimientos">
-            <h2>Conocimientos Técnicos</h2>
-            <img src="./assets/img/html5.png" alt="Icono de HTML5">
-            <p>HTML5</p>
-            <img src="./assets/img/CSS3_logo.svg.png" alt="Icono de CSS3">
-            <p>CSS3</p>
-        </section>
+    <section id="conocimientos">
+        <h2>Conocimientos Técnicos</h2>
 
-        <section id="formación">
-            <h2>Formación</h2>
+        <div class="tecnologias">
+        <img src="./assets/img/html5.png" alt="Icono de HTML5">
+        <div>
+            <h3>HTML5</h3>
+            <p>Estructuración semántica de páginas web, uso de etiquetas HTML5, formularios y buenas prácticas.</p>
+        </div>
+        </div>
+
+        <div class="tecnologias">
+        <img src="./assets/img/CSS3_logo.svg.png" alt="Icono de CSS3">
+        <div>
+            <h3>CSS3</h3>
+            <p>Maquetación con Flexbox, estilos responsive, uso de colores, tipografías y diseño limpio.</p>
+        </div>
+        </div>        
+    </section>
+
+    <section id="formación">
+        <h2>Formación</h2>
             <ul>
-                <li>Grado en Administración de Sistemas Informáticos en Red (ASIR) - Prometeo ThePower (2025 - Presente) 1er Año actualmente</li>
+                <li>Grado en Administración de Sistemas Informáticos en Red (ASIR) - 
+                    Prometeo ThePower (2025 - Presente) 1er Año actualmente
+                </li>
             </ul>
-        </section>
+    </section>
 
-        <section id="proyectos">
+    <section id="proyectos">
             <h2>Proyectos</h2>
 
             <p>Ejemplos de proyectos realizados como prácticas de maquetación web.</p>
@@ -98,10 +124,10 @@
                 </p>
                 <img src="./assets/img/proyecto_panel.jpg" alt="Diseño de un panel informativo web">
             </article>
-        </section>
+    </section>
 
 
-        <section id="contacto">
+    <section id="contacto">
             <h2>Contacto</h2>
             <form>
                 <label for="nombre">Nombre:</label><br>
@@ -116,7 +142,7 @@
                 <button type="submit">Enviar</button>
             </form>
                     
-        </section>
+    </section>
 
 </main>
 
